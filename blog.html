@@ -3,54 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <title>Catatan Publik</title>
+
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      background: #0f172a;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #0b1220;
       color: #e5e7eb;
-      max-width: 800px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 680px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 60px 20px;
     }
-    h1 {
-      color: #93c5fd;
-    }
+
     a {
-      color: #60a5fa;
+      color: #7dd3fc;
       text-decoration: none;
       font-weight: 600;
     }
-    .box {
-      background: #020617;
-      padding: 16px;
-      border-radius: 10px;
-      margin-top: 20px;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      margin-bottom: 50px;
+    }
+
+    .post {
+      margin-bottom: 70px;
+    }
+
+    .post h2 {
+      font-size: 24px;
+      margin-bottom: 6px;
+    }
+
+    .date {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 20px;
+    }
+
+    .post p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #1e293b;
+      margin: 60px 0;
     }
   </style>
 </head>
 <body>
 
-  <a href="index.html">← Kembali ke Portofolio</a>
+  <div class="container">
 
-  <h1>📝 Catatan</h1>
-  <p>Kumpulan catatan dan proses belajarku.</p>
+    <a href="index.html">← Kembali ke Portofolio</a>
 
-  <div class="box">
-    <strong>Hari Pertama Belajar Web</strong><br>
-    <small>4 Januari 2026</small>
-    <p>
-      Hari ini aku berhasil memahami bagaimana website
-      dipublikasikan menggunakan GitHub Pages.
+    <h1>Catatan Publik</h1>
+    <p class="subtitle">
+      Dokumentasi proses belajar, pemikiran, dan perjalanan membangun.
     </p>
-  </div>
 
-  <div class="box">
-    <strong>Kenapa Aku Membuat Blog Ini</strong><br>
-    <small>4 Januari 2026</small>
-    <p>
-      Blog ini aku gunakan untuk mencatat proses belajar,
-      kesalahan, dan insight selama membangun website.
-    </p>
+    <div class="post">
+      <h2>Hari Pertama Belajar Web</h2>
+      <div class="date">8 Januari 2026</div>
+      <p>
+        Hari ini aku akhirnya memahami bahwa website tidak harus rumit.
+        Dengan HTML sederhana dan GitHub Pages, aku bisa mempublikasikan
+        hasil belajarku ke internet.
+      </p>
+      <p>
+        Rasanya sederhana, tapi juga membebaskan. Aku mulai melihat
+        bahwa konsistensi jauh lebih penting daripada teknologi canggih.
+      </p>
+    </div>
+
+    <hr>
+
+    <div class="post">
+      <h2>Kenapa Aku Membuat Blog Ini</h2>
+      <div class="date">7 Januari 2026</div>
+      <p>
+        Blog ini bukan ditujukan untuk terlihat pintar, tapi untuk
+        jujur terhadap proses belajar. Aku ingin mencatat kebingungan,
+        kesalahan, dan pemahaman yang perlahan terbentuk.
+      </p>
+      <p>
+        Dengan menulis, aku memaksa diriku sendiri untuk berpikir lebih
+        jelas dan terstruktur.
+      </p>
+    </div>
+
   </div>
 
 </body>
