@@ -5,108 +5,107 @@
   <title>Portofolio Pribadi</title>
   <style>
     body {
+      margin: 0;
       font-family: system-ui, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      max-width: 800px;
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+
+    header {
+      background: linear-gradient(120deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    main {
+      max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
     h1, h2 {
-      color: #93c5fd;
+      margin-top: 0;
     }
-    section {
-      margin-top: 50px;
+
+    h2 {
+      color: #2563eb;
     }
-    .box {
-      background: #020617;
-      padding: 16px;
-      border-radius: 10px;
-      margin-top: 15px;
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      color: #64748b;
+      padding: 40px 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Saufan Ramadhan</h1>
-  <p>
-  <a href="blog.html">📝 Baca Catatanku</a>
-</p>
-  <p>Portofolio & catatan perjalanan belajar.</p>
 
-  <section>
-    <h2>👤 Tentang Aku</h2>
-    <div class="box">
+  <header>
+    <!-- GANTI foto.jpg dengan fotomu -->
+    <img src="foto.jpg" alt="Foto Profil">
+    <h1>Nama Kamu</h1>
+    <p>Portofolio & Catatan Publik</p>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <h2>Tentang Aku</h2>
       <p>
-        Aku sedang belajar membangun website dan teknologi web
-        secara bertahap. Website ini menjadi dokumentasi proses
-        belajarku dan proyek-proyek kecil yang aku kerjakan.
+        Aku sedang belajar membangun website dan teknologi web secara bertahap.
+        Website ini menjadi dokumentasi proses belajar dan proyek kecilku.
       </p>
     </div>
-  </section>
 
-  <section>
-    <h2>🛠 Keahlian (sedang dipelajari)</h2>
-    <div class="box">
+    <div class="card">
+      <h2>Keahlian</h2>
       <ul>
-        <li>HTML (dasar)</li>
-        <li>CSS (dasar)</li>
+        <li>HTML & CSS (dasar)</li>
         <li>JavaScript (dasar)</li>
         <li>GitHub Pages</li>
       </ul>
     </div>
-  </section>
 
-  <section>
-    <h2>📂 Proyek</h2>
-    <div class="box">
-      <strong>Website Portofolio Pertama</strong>
+    <div class="card">
+      <h2>Proyek</h2>
       <p>
-        Website statis berbasis HTML, dipublikasikan menggunakan
-        GitHub Pages.
+        <strong>Website Portofolio & Blog</strong><br>
+        Website statis pribadi yang dipublikasikan menggunakan GitHub Pages.
+      </p>
+      <p>
+        <a href="blog.html">📝 Baca Catatan Publik</a>
       </p>
     </div>
-  </section>
 
-  <section>
-    <h2>📬 Kontak</h2>
-    <div class="box">
-      <p>Email: saufanbima@gmail.com</p>
-      <p>GitHub: https://saufan.github.io/website-pertamaku/</p>
-    </div>
-  </section>
-  
-<div class="box">
-  <strong>Apa itu Cinta</strong><br>
-  <small>4 Januari 2026</small>
-  <p>
-    <pre>
-    ● Jika kamu mencintai seseorang
-       karena dia mencintaimu
-       itu bukan cinta tapi empati
-    
-    ● Jika kamu mencintai seseorang
-       karena hartanya itu bukan cinta
-       tapi hanya tertarik
-    
-    ● Jika kamu mencintai seseorang
-       karena penampilannya
-       itu juga bukan cinta tapi obsesi
-    
-    ● Jika kamu mencintai seseorang
-       karena kebaikannya itu juga
-       bukan cinta tapi hanya kagum
-    
-    ● Jika kamu mencintai seseorang
-       karena pandangan pertama mungkin 
-       itu dipengaruhi oleh satu hal 
-       yaitu gairah
-    
-    ● Jika kamu mencintai seseorang
-       tapi kamu bingung kenapa kamu 
-       mencintainya, bisa dipastikan
-       kamu benar-benar mencintainya
-    </pre>
-  </p>
-</div>
+  </main>
+
+  <footer>
+    © 2026 — Nama Kamu
+  </footer>
+
 </body>
 </html>

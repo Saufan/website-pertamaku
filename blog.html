@@ -3,108 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <title>Catatan Publik</title>
-
   <style>
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      background: #0b1220;
-      color: #e5e7eb;
       margin: 0;
-      padding: 0;
+      font-family: system-ui, sans-serif;
+      background: #f1f5f9;
+      color: #0f172a;
     }
 
-    .container {
-      max-width: 680px;
+    header {
+      background: linear-gradient(120deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
       margin: auto;
-      padding: 60px 20px;
+      padding: 40px 20px;
+    }
+
+    .post {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .post h2 {
+      margin-top: 0;
+      color: #2563eb;
+    }
+
+    .post small {
+      color: #64748b;
     }
 
     a {
-      color: #7dd3fc;
+      color: #2563eb;
       text-decoration: none;
       font-weight: 600;
     }
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-
-    .subtitle {
-      color: #94a3b8;
-      margin-bottom: 50px;
-    }
-
-    .post {
-      margin-bottom: 70px;
-    }
-
-    .post h2 {
-      font-size: 24px;
-      margin-bottom: 6px;
-    }
-
-    .date {
-      font-size: 14px;
-      color: #94a3b8;
-      margin-bottom: 20px;
-    }
-
-    .post p {
-      font-size: 18px;
-      line-height: 1.8;
-      margin-bottom: 18px;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid #1e293b;
-      margin: 60px 0;
+    footer {
+      text-align: center;
+      color: #64748b;
+      padding: 40px 20px;
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-
-    <a href="index.html">← Kembali ke Portofolio</a>
-
+  <header>
     <h1>Catatan Publik</h1>
-    <p class="subtitle">
-      Dokumentasi proses belajar, pemikiran, dan perjalanan membangun.
-    </p>
+    <p>Pemikiran, proses belajar, dan refleksi</p>
+    <p><a href="index.html">← Kembali ke Beranda</a></p>
+  </header>
+
+  <main>
 
     <div class="post">
-      <h2>Hari Pertama Belajar Web</h2>
-      <div class="date">8 Januari 2026</div>
+      <h2>Hari Pertama Belajar Website</h2>
+      <small>6 Januari 2026</small>
       <p>
-        Hari ini aku akhirnya memahami bahwa website tidak harus rumit.
-        Dengan HTML sederhana dan GitHub Pages, aku bisa mempublikasikan
-        hasil belajarku ke internet.
-      </p>
-      <p>
-        Rasanya sederhana, tapi juga membebaskan. Aku mulai melihat
-        bahwa konsistensi jauh lebih penting daripada teknologi canggih.
+        Hari ini aku mulai membangun website portofolio pertamaku.
+        Awalnya terasa membingungkan, tapi pelan-pelan mulai masuk akal.
       </p>
     </div>
 
-    <hr>
-
     <div class="post">
-      <h2>Kenapa Aku Membuat Blog Ini</h2>
-      <div class="date">7 Januari 2026</div>
+      <h2>Mengapa Aku Ingin Punya Website Sendiri</h2>
+      <small>6 Januari 2026</small>
       <p>
-        Blog ini bukan ditujukan untuk terlihat pintar, tapi untuk
-        jujur terhadap proses belajar. Aku ingin mencatat kebingungan,
-        kesalahan, dan pemahaman yang perlahan terbentuk.
-      </p>
-      <p>
-        Dengan menulis, aku memaksa diriku sendiri untuk berpikir lebih
-        jelas dan terstruktur.
+        Website ini bukan hanya portofolio, tapi juga catatan publik
+        agar proses belajarku bisa dibagikan ke orang lain.
       </p>
     </div>
 
-  </div>
+  </main>
+
+  <footer>
+    © 2026 — Nama Kamu
+  </footer>
 
 </body>
 </html>
