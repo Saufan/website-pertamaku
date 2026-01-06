@@ -4,6 +4,20 @@
   <meta charset="UTF-8">
   <title>Portofolio Pribadi</title>
   <style>
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+  
     body {
       margin: 0;
       font-family: system-ui, sans-serif;
@@ -80,6 +94,15 @@
         Website ini menjadi dokumentasi proses belajar dan proyek kecilku.
       </p>
     </div>
+  <div class="card">
+  <h2>Galeri</h2>
+
+  <div class="gallery">
+    <img src="img/foto1.jpg" alt="Foto 1">
+    <img src="img/foto2.jpg" alt="Foto 2">
+    <img src="img/foto3.jpg" alt="Foto 3">
+  </div>
+</div>
 
     <div class="card">
       <h2>Keahlian</h2>
